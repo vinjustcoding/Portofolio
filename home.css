@@ -3,12 +3,9 @@
     padding: 0;
 }
 
-#my{
-zoom: 75%;
-}
-
 body {
     overflow-x:hidden;
+    zoom: 75%;
 }
 
 .home {
