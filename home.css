@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    zoom: 75%;
 }
 
 body {
     overflow-x:hidden;
-    zoom: 75%;
 }
 
 .home {
