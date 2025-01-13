@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+#my{
+zoom: 75%;
+}
+
 body {
     overflow-x:hidden;
 }
