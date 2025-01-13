@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x:hidden;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+.navbar {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px !important;
+    padding-bottom: 25px !important;
+    align-items: center;
+    position: sticky;
+}
+
+.navbar li {
+    margin: 15px !important;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 25px;
+}
+
+.navbar .option {
+    display: flex;
+    gap: 50px;
+}
+
+.buttonnavbar {
+    margin-top: -40px;
+}
+
+.buttonnavbar a {
+    margin-top: 46px;
+    font-size: 25px;
+}
+
+.option {
+    margin-top: -50px;
+    margin-right: 50px;
+}
+
+.profile {
+    margin-left: 70px;
+}
+
+.description {
+    margin-top: 200px;
+}
+
+.description h6 {
+    font-size: 25px;
+}
+
+.description h2 {
+    font-size: 80px;
+}
+
+.description h1 {
+    font-size: 90px;
+    color: #0077FF;
+}
+
+.description p {
+    font-size: 40px;
+}
+
+.description a {
+    font-size: 25px;
+}
+
+.btn {
+    margin-top: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-outline {
+    background-color: white;
+    color: #007bff;
+    border: 1px solid #007bff;
+    margin-left: 30px;
+}
+
+.btn-outline:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.photoprofile img {
+    margin-left: 1100px;
+    margin-top: -770px;
+    width: 1000px;
+    z-index: 1 !important;
+    height: auto;
+    clip-path: inset(0% 0% 7% 0%);
+}
+
+.footer {
+    margin-top: -74px;
+    background-color: #007bff;
+    color: white;
+    padding: 80px;
+    display: flex;
+}
+
+.footer p {
+    font-size: 25px;
+    color: white;
+}
+
+.social-icons {
+    text-align: right;
+    margin-left: auto;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    display: inline-block;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ccc;
+}
+
+.services {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.titleservice p {
+    color: #333333;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.services h2 {
+    color: #333333;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.service-cards {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 296px;
+    height: 320px;
+    transition: transform 0.2s;
+}
+
+.card p {
+    margin-top: 30px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.icon img {
+    margin-top: 30px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+h4 {
+    margin: 10px 0;
+}
+
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 140px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 940px;
+    font-size: 20px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.aboutme {
+    margin-left: 70px;
+    display: flex;
+}
+
+.aboutme img {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+}
+
+.aboutmedesc {
+    margin-left: 150px;
+    margin-top: 225px;
+}
+
+.aboutmedesc h4 {
+    color: #333333;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.aboutmedesc h1 {
+    font-size: 70px;
+    color: #0077FF;
+}
+
+.aboutmedesc p {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.row {
+    display: flex;
+}
+
+.imagegalerry {
+    width: 300px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagegalerry img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.imagegalerry:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.imagegalerry:hover img {
+    transform: scale(1.1);
+}
+
+.videotitle{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.videotitle h1{
+    color: #0077FF;
+    font-size: 40px;
+}
+
+.videotitle p{
+    color:#000000;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.vinvideo{
+    text-align: center;
+    clip-path: inset(11% 0% 11% 0%);
+
+}
+
+.footerend {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footerend {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 20px;
+}
