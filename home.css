@@ -6,7 +6,8 @@
 body {
     overflow-x: hidden;
     transform: scale(0.75);
-}
+    transform-origin: top left;
+    zoom: 0.75;
 
 .home {
     width: 100%;
