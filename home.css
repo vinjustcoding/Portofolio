@@ -5,6 +5,7 @@
 
 body {
     overflow-x: hidden;
+    transform: scale(0.75);
 }
 
 .home {
